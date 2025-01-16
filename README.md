@@ -1,41 +1,40 @@
-# Projeto de Envio de E-mails
+# Site de Obras de Arte
 
-Este é um projeto simples de envio de e-mails criado utilizando HTML como base e integrado com PHP para o envio das mensagens. É ideal para iniciantes que desejam aprender como configurar e enviar e-mails diretamente de uma aplicação web.
+Este é um site simples e elegante para exibição de obras de arte, criado utilizando HTML, CSS e Bootstrap. O projeto tem como objetivo oferecer uma experiência visual agradável e responsiva para os usuários.
 
 ## Funcionalidades
 
-- Envio de e-mails personalizados.
-- Configuração de remetente, destinatário e assunto.
-- Interface básica para preenchimento de campos de mensagem.
-
-## Pré-requisitos
-
-Para executar o projeto, é necessário:
-
-1. Servidor local configurado (recomenda-se o uso do XAMPP).
-2. PHP instalado (versão mínima recomendada: 7.4).
-3. Acesso à internet para testar o envio de e-mails (caso o servidor SMTP esteja configurado para isso).
-
-4. Inicie o servidor Apache no XAMPP.
-
-5. Acesse o projeto no navegador:
-   ```
-   http://localhost/seu-projeto
-   ```
-
-## Estrutura do Projeto
-
-- `index.html`: Formulário HTML para coleta dos dados do e-mail.
-- `send_email.php`: Script PHP responsável por processar e enviar os e-mails.
-
-## Como Usar
-
-1. Abra o formulário no navegador.
-2. Preencha os campos de destinatário, assunto e mensagem.
-3. Clique no botão "Enviar".
-4. Verifique se o e-mail foi enviado corretamente (mensagem de sucesso ou erro será exibida na tela).
+- Exibição de galerias de obras de arte.
+- Layout responsivo para dispositivos móveis, tablets e desktops.
+- Uso de componentes e classes do Bootstrap para estilização e funcionalidade.
 
 ## Tecnologias Utilizadas
 
-- **HTML**: Para criar o formulário de envio.
-- **PHP**: Para processar e enviar os e-mails.
+- **HTML**: Estrutura principal das páginas.
+- **CSS**: Estilização personalizada.
+- **Bootstrap**: Framework para design responsivo e componentes prontos.
+
+## Como Visualizar o Projeto
+
+1. Clone este repositório ou faça o download dos arquivos.
+   ```bash
+   git clone https://github.com/killuaxhunterx/projeto.git
+   ```
+
+2. Abra o arquivo `index.html` no navegador.
+
+3. Navegue pelo site para explorar as funcionalidades e galerias.
+
+## Estrutura do Projeto
+
+- `index.html`: Página inicial com a galeria de obras de arte.
+- `css/`: Pasta contendo os arquivos de estilização personalizada.
+- `assets/`: Pasta para imagens e outros arquivos estáticos.
+- `bootstrap/`: Arquivos do framework Bootstrap.
+
+## Melhorias Futuras
+
+- Adicionar mais galerias ou categorias de obras de arte.
+- Implementar um sistema de filtragem por estilo, período ou artista.
+- Incluir animações interativas usando JavaScript.
+- Criar uma página de contato ou formulário para artistas enviarem suas obras.
